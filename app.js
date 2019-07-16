@@ -34,9 +34,14 @@ app.use(i18n.init);
 
 
 app.get('/', function(req, res) {
-    
-	res.render('home');					  
+    res.render('home');				  
 });
+
+app.get('/contact', function(req, res) {
+    res.render('contact');				  
+});
+
+
 
 app.listen(3000);
 console.log('listening on port 3000...');
