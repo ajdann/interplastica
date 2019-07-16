@@ -1,0 +1,28 @@
+/*    NAVBAR CSS   */
+/*  BOJE: #375066 i #5598A9  */
+#navLogo{
+    width: 200px;
+    margin-right: 10px;
+    transition: all 0.3s;
+}
+
+@media (min-width: 768px) {
+    .navbar{
+        height: 70px;
+        transition: all 0.3s;
+        position: relative;
+        
+    }
+
+    .nav-link{
+        font-size: 0.9rem;
+        margin-bottom: -5px;
+    }
+}
+
+.nav-link{
+    text-transform: uppercase;
+}
+
+/* KRAJ */
+
