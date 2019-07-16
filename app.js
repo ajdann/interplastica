@@ -24,28 +24,17 @@ i18n.configure({
     });
 
     
-// set up the middleware
-app.use(function(req, res, next) {
-    req.i18n.setLocaleFromQuery();
-    req.i18n.setLocaleFromCookie();
-    next();
-  });
 
 
 app.use(cookieParser("intermuris"));
 
-app.use(session({
-    secret: "intermuris",
-    resave: true,
-    saveUninitialized: true,
-    cookie: { maxAge: 60000 }
-}));
+
 app.use(i18n.init);
 
 
 
 app.get('/', function(req, res) {
-    res.setLocale(req.cookies.i18n);
+    
 	res.render('home');					  
 });
 
