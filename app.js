@@ -12,10 +12,12 @@ app.use(express.static(__dirname + "/public"));
 
 
 app.get('/', function(req, res) {
-    res.render('home');				  
+    res.locals.title = "Home"; 
+    res.render('Home');				  
 });
 
 app.get('/contact', function(req, res) {
+    res.locals.title = "Contact"; 
     res.render('contact');				  
 });
 
