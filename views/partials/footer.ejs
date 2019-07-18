@@ -1,5 +1,5 @@
 </div>
-</body>
+<a href="#" id="scroll" style="display: none;"><span></span></a>
 <!-- Footer -->
 <div id ="plavaLinija" class="mt-5"></div>
 <footer class=" bg-light border-top pb-3">
@@ -42,6 +42,11 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
 </script>
+<script
+src="https://code.jquery.com/jquery-3.4.1.min.js"
+integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+crossorigin="anonymous"></script>
+
 <script>
     if (window.innerWidth > 768) {
         window.onscroll = function () {
@@ -60,6 +65,23 @@
             }
         }
     }
+
+
+    /* SCROLL BUTON */
+    
+$(document).ready(function(){ 
+    $(window).scroll(function(){ 
+        if ($(this).scrollTop() > 100) { 
+            $('#scroll').fadeIn(); 
+        } else { 
+            $('#scroll').fadeOut(); 
+        } 
+    }); 
+    $('#scroll').click(function(){ 
+        $("html, body").animate({ scrollTop: 0 }, 600); 
+        return false; 
+    }); 
+});
 </script>
 
 </html>
