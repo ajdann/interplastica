@@ -24,6 +24,19 @@
     text-transform: uppercase;
 }
 
+#contactus{
+    /* background-image: url("");
+    background-repeat: no-repeat;
+    background-position: center;    
+    background-size: cover; */
+    background: rgb(245,244,244);
+background: -moz-radial-gradient(circle, rgba(245,244,244,1) 0%, rgba(255,255,255,0.00043767507002800965) 100%);
+background: -webkit-radial-gradient(circle, rgba(245,244,244,1) 0%, rgba(255,255,255,0.00043767507002800965) 100%);
+background: radial-gradient(circle, rgba(245,244,244,1) 0%, rgba(255,255,255,0.00043767507002800965) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f5f4f4",endColorstr="#ffffff",GradientType=1);
+    }
+
+  
 /* KRAJ */
 
 #plavaLinija{
