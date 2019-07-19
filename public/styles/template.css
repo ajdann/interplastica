@@ -48,7 +48,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f5f4f4",endCo
 
 }
 #contactus > h1 {
-    animation:  0.7s ease-in-out 0s 1 fadein;
+    animation:  0.5s ease-in-out 0s 1 fadein;
     animation-fill-mode: forwards;
 
 }
