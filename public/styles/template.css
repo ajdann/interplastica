@@ -35,7 +35,23 @@ background: -webkit-radial-gradient(circle, rgba(245,244,244,1) 0%, rgba(255,255
 background: radial-gradient(circle, rgba(245,244,244,1) 0%, rgba(255,255,255,0.00043767507002800965) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f5f4f4",endColorstr="#ffffff",GradientType=1);
     }
+@keyframes fadein {
+    0% {
+        opacity: 0.8;
+        transform: scale(0.9);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1.0);
+    }
 
+
+}
+#contactus > h1 {
+    animation:  0.7s ease-in-out 0s 1 fadein;
+    animation-fill-mode: forwards;
+
+}
   
 /* KRAJ */
 
