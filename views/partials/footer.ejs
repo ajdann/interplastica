@@ -58,7 +58,6 @@ crossorigin="anonymous"></script>
                 document.querySelector(".navbar").style.height = "50px";
                 document.querySelector("#navLogo").style.width = "150px";
                 document.querySelector(".nav").style.backgroundColor = "black";
-
             } else {
                 document.querySelector(".navbar").style.height = "70px";
                 document.querySelector("#navLogo").style.width = "200px";
@@ -81,6 +80,35 @@ $(document).ready(function(){
         $("html, body").animate({ scrollTop: 0 }, 600); 
         return false; 
     }); 
+});
+
+
+
+// number count for stats, using jQuery animate
+
+$('.counting').each(function() {
+  var $this = $(this),
+      countTo = $this.attr('data-count');
+  
+  $({ countNum: $this.text()}).animate({
+    countNum: countTo
+  },
+
+  {
+
+    duration: 3000,
+    easing:'linear',
+    step: function() {
+      $this.text(Math.floor(this.countNum));
+    },
+    complete: function() {
+      $this.text(this.countNum);
+      //alert('finished');
+    }
+
+  });  
+  
+
 });
 </script>
 
