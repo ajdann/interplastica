@@ -48,19 +48,31 @@ integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
 crossorigin="anonymous"></script>
 
 <script>
+  
+
+
     if (window.innerWidth > 768) {
         window.onscroll = function () {
             scrollFunction()
         };
 
         function scrollFunction() {
+      
+
             if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
                 document.querySelector(".navbar").style.height = "50px";
                 document.querySelector("#navLogo").style.width = "150px";
-                document.querySelector(".nav").style.backgroundColor = "black";
+                document.querySelectorAll('.navbar .nav-item a').forEach(function(item){
+                    item.style.fontSize = '0.77rem';
+                })
+
+
             } else {
                 document.querySelector(".navbar").style.height = "70px";
                 document.querySelector("#navLogo").style.width = "200px";
+                document.querySelectorAll('.navbar .nav-item a').forEach(function(item){
+                    item.style.fontSize = '0.9rem';
+                })
             }
         }
     }
