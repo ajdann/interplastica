@@ -147,6 +147,13 @@ body {
 
 /*/ start count stats /*/
 
+
+/* #counter-stats{
+    background-color: rgba(0, 0, 0, 0.03);
+    height: 240px;
+} */
+
+
 section#counter-stats {
 	display: flex;
 	justify-content: center;
@@ -166,3 +173,5 @@ section#counter-stats {
 }
 
 /*/ end count stats /*/
+
+

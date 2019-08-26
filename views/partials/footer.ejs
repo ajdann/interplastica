@@ -47,6 +47,7 @@ src="https://code.jquery.com/jquery-3.4.1.min.js"
 integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
 crossorigin="anonymous"></script>
 
+
 <script>
   
 
@@ -97,8 +98,24 @@ $(document).ready(function(){
 
 
 // number count for stats, using jQuery animate
+$(window).scroll(countNumbers);
+var viewed = false;
 
-$('.counting').each(function() {
+function isScrolledIntoView(elem) {
+    var docViewTop = $(window).scrollTop();
+    var docViewBottom = docViewTop + $(window).height();
+
+    var elemTop = $(elem).offset().top;
+    var elemBottom = elemTop + $(elem).height();
+
+    return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+}
+
+function countNumbers(){
+    if (isScrolledIntoView($("#counter-stats")) && !viewed) {
+      viewed = true;
+
+      $('.counting').each(function() {
   var $this = $(this),
       countTo = $this.attr('data-count');
   
@@ -108,7 +125,7 @@ $('.counting').each(function() {
 
   {
 
-    duration: 3000,
+    duration: 1500,
     easing:'linear',
     step: function() {
       $this.text(Math.floor(this.countNum));
@@ -122,6 +139,10 @@ $('.counting').each(function() {
   
 
 });
+
+    }
+}
+
 </script>
 
 </html>
