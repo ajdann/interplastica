@@ -176,14 +176,23 @@ section#counter-stats {
 
 
 /* KARTICE */
+.cards{
+width: 80%;
+margin-left: 50px;
+}
+
+.containerKartice{
+  margin-top: 10%;
+}
+
 body {
     background-color: #fef5df;
   }
   .container-card {
-    width: 300px;
-    height: 400px;
+    width: 240px;
+    height: 290px;
    
-    background: url("https://i.pinimg.com/564x/6f/5a/b1/6f5ab1b470beeeeaf285bb451c63ac8f.jpg");
+    background: url("https://images.unsplash.com/photo-1547895749-888a559fc2a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80");
     background-color: black;
     background-size: cover;
     cursor: pointer;
@@ -196,21 +205,24 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 2fr 2fr 1fr;
-    background: rgba(77, 77, 77, .9);
+    background: rgba(77, 77, 77, .4);
     color: #fef5df;
     opacity: 0;
     transition: all 0.5s;
-    font-family: 'Playfair Display', serif;
+    /* font-family: 'Playfair Display', serif; */
   }
   .items {
     padding-left: 20px;
-    letter-spacing: 3px;
+    /* letter-spacing: 3px; */
   }
   .head {
     font-size: 30px;
     line-height: 40px;
     transform: translateY(40px);
     transition: all 0.7s;
+  }
+  .items p{
+    margin-bottom: 20px;
   }
   .head hr {
     display: block;
