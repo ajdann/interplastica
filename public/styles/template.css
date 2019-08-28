@@ -32,6 +32,16 @@
     .carousel-caption > p {
         font-size: 20px !important;
     }
+
+    .noContainer{
+      height: 1000px !important;
+    }
+}
+
+@media (max-width: 992px){
+  .noContainer{
+    height: 1200px !important;
+  }
 }
 
 .nav-link{
@@ -43,6 +53,7 @@
     background-repeat: no-repeat;
     background-position: center;    
     background-size: cover; */
+    margin-top: 90px;
     background: rgb(245,244,244);
 background: -moz-radial-gradient(circle, rgba(245,244,244,1) 0%, rgba(255,255,255,0.00043767507002800965) 100%);
 background: -webkit-radial-gradient(circle, rgba(245,244,244,1) 0%, rgba(255,255,255,0.00043767507002800965) 100%);
@@ -181,17 +192,23 @@ section#counter-stats {
   width: 80%;
   margin-left: 50px;
   }
+
+  .noContainer{
+    height: 500px;
+    background-color: rgb(242, 242, 242);
+    margin-top: 100px;
+  }
    
   .containerKartice{
-    margin-top: 10%;
+    /* margin-top: 10%; */
   }
    
   body {
       background-color: #fef5df;
     }
     .container-card {
-      width: 240px;
-      height: 290px;
+      width: 300px;
+      height: 350px;
      
       background: url("https://images.unsplash.com/photo-1547895749-888a559fc2a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80");
       background-color: black;
