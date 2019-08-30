@@ -26,6 +26,11 @@ app.get('/contact', function(req, res) {
     res.render('contact');				  
 });
 
+app.get("/fences", function(req, res){
+    res.locals.title = "Fences";
+    res.render("ograde");
+})
+
 
 
 app.listen(3000);
