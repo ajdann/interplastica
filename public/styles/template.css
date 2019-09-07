@@ -24,6 +24,18 @@
   }
 }
 
+@media (max-width: 800px) {
+  .aaa{
+    border: 0px solid white !important;
+    margin-top: 25px !important;
+    height: 200px !important;
+  }
+
+  #naslovRazvoj{
+    margin-top: 30px !important;
+  }
+}
+
 .nav-link {
   text-transform: uppercase;
 }
@@ -38,6 +50,37 @@
 .naslov {
   font-size: 3.0rem !important;
 
+}
+
+.xx{
+  background-color: rgb(66, 66, 66);
+}
+
+.aaa{
+
+  height: 330px;
+
+  /* border: 30px solid transparent; */
+}
+
+#prviRazvoj{
+  background-color: #375066;
+  color: white;
+  border-right: 7px solid white;
+}
+
+#drugiRazvoj{
+  background-color: rgb(66, 66, 66);
+  color: white;
+  border-right: 3.5px solid white;
+  border-left: 3.5px solid white;
+
+}
+
+#treciRazvoj{
+  background-color: rgb(226, 223, 223);
+  color: black;
+  border-left: 7px solid white;
 }
 
 /* SCROLL BUTTON */

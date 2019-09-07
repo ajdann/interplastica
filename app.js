@@ -16,6 +16,11 @@ app.get('/', function(req, res) {
     res.render('Home');				  
 });
 
+app.get('/razvoj', function(req, res) {
+    res.locals.title = "Razvoj Proizvoda"; 
+    res.render('razvoj');				  
+});
+
 app.get("/profiles", function(req, res){
     res.locals.title = "Profile";
     res.render("profiles");
