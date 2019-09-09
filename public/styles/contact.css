@@ -3,10 +3,11 @@
     background-repeat: no-repeat;
     background-position: center;    
     background-size: cover; */
-    margin-top: 90px;
-    background: rgb(245, 244, 244);
-    background: -moz-radial-gradient(circle, rgba(245, 244, 244, 1) 0%, rgba(255, 255, 255, 0.00043767507002800965) 100%);
-    background: -webkit-radial-gradient(circle, rgba(245, 244, 244, 1) 0%, rgba(255, 255, 255, 0.00043767507002800965) 100%);
-    background: radial-gradient(circle, rgba(245, 244, 244, 1) 0%, rgba(255, 255, 255, 0.00043767507002800965) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f5f4f4", endColorstr="#ffffff", GradientType=1);
+    color: black;
+    margin-top: 70px;
+    background: rgb(55,80,102);
+background: -moz-linear-gradient(90deg, rgba(55,80,102,1) 0%, rgba(85,152,169,0.26934523809523814) 50%, rgba(55,80,102,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(55,80,102,1) 0%, rgba(85,152,169,0.26934523809523814) 50%, rgba(55,80,102,1) 100%);
+background: linear-gradient(90deg, rgba(55,80,102,1) 0%, rgba(85,152,169,0.26934523809523814) 50%, rgba(55,80,102,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#375066",endColorstr="#375066",GradientType=1);
 }
