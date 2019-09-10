@@ -5,9 +5,6 @@
     background-size: cover; */
     color: black;
     margin-top: 70px;
-    background: rgb(55,80,102);
-background: -moz-linear-gradient(90deg, rgba(55,80,102,1) 0%, rgba(85,152,169,0.26934523809523814) 50%, rgba(55,80,102,1) 100%);
-background: -webkit-linear-gradient(90deg, rgba(55,80,102,1) 0%, rgba(85,152,169,0.26934523809523814) 50%, rgba(55,80,102,1) 100%);
-background: linear-gradient(90deg, rgba(55,80,102,1) 0%, rgba(85,152,169,0.26934523809523814) 50%, rgba(55,80,102,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#375066",endColorstr="#375066",GradientType=1);
+    background-color: rgba(242,242,242, 0.8);
+
 }

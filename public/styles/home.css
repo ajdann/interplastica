@@ -59,7 +59,7 @@ section#counter-stats {
 
 .noContainer {
     height: 500px;
-    background-color: rgb(242, 242, 242);
+    background-color: rgba(242, 242, 242, 0.8);
     margin-top: 100px;
 }
 

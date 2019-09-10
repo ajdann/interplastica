@@ -1,4 +1,13 @@
+body{
+  background-image: url('/images/logopozadina.PNG') !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
+  background-position: top right  !important;
+  background-size: 1200px !important;
 
+  
+
+}
 /*    NAVBAR CSS   */
 /*  BOJE: #375066 i #5598A9  */
 #navLogo {
@@ -29,7 +38,7 @@
   padding-top: 50px;
   padding-bottom: 50px;
   width: 100%;
-  background-color: rgb(242, 242, 242);
+  background-color: rgba(242, 242, 242, 0.8);
 }
 
 @media (max-width: 800px) {
