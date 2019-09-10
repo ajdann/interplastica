@@ -1,18 +1,17 @@
 html, body {
     height: 100%;
   }
-/*   
+
   body {
-    font-family: "Quicksand", sans-serif;
+    /* font-family: "Quicksand", sans-serif;
     font-weight: 500;
     color: #424949;
-    background-color: #ECF0F1;
-    padding: 0 25px;
+    background-color: #ECF0F1; */
+    /* padding: 0 25px;
     display: flex;
     flex-direction: column;
-    position: relative;
-  } */
-  
+    position: relative; */
+  } 
   
 
 
@@ -101,6 +100,10 @@ html, body {
     input:checked + .dot-info span {
         font-size: 13px !important;
         font-weight: bold;
+      }
+
+      input{
+        margin-left: 10px !important;
       }
 
       .dot-info span {
