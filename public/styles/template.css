@@ -41,6 +41,20 @@ body{
   background-color: rgba(242, 242, 242, 0.8);
 }
 
+.wide-div {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  background-color: rgba(242, 242, 242, 0.8);
+  padding: 17px 0 50px 0;
+}
+
+.wide-div2 {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  background-color: rgba(242, 242, 242, 0.8);
+  padding: 37px 0 37px 0;
+}
+
 @media (max-width: 800px) {
   .aaa{
     border: 0px solid white !important;

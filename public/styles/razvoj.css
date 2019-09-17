@@ -117,7 +117,7 @@ html, body {
 }
   
 
-#wide-div {
+.wide-div {
     width: 100vw;
     margin-left: calc(-50vw + 50%);
     background-color: rgba(242, 242, 242, 0.8);
