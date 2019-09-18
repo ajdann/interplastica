@@ -93,9 +93,14 @@ body{
 
 .aaa{
 
-  height: 330px;
+  height: 350px;
 
   /* border: 30px solid transparent; */
+}
+
+
+body{
+  overflow-x: hidden;
 }
 
 #prviRazvoj{
@@ -110,6 +115,26 @@ body{
   border-right: 3.5px solid white;
   border-left: 3.5px solid white;
 
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
 
 #treciRazvoj{
