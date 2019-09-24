@@ -105,6 +105,24 @@ body {
     transition: all 0.7s;
 }
 
+.card{
+    background-color: rgba(242, 242, 242, 0.8);
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("/images/aaa.png");
+  
+    /* Set a specific height */
+    /* height: 500px; */
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
 .items p {
     margin-bottom: 20px;
 }
