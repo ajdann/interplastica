@@ -11,21 +11,40 @@
 }
 
 
-#prvaBoja{
+.prvaBoja{
     background-color: #F1F2ED;
 }
 
-#drugaBoja{
+.drugaBoja{
     background-color: #9099A0;
 }
 
-#trecaBoja{
+.trecaBoja{
     background-color: #393E42;
 }
 
-#cetvrtaBoja{
+.cetvrtaBoja{
     background-color: #513329;
 }
+
+
+#bg-white{
+    background: none;
+}
+
+#bg-white2{
+    background: none;
+}
+
+#bg-white3{
+    background: none;
+}
+
+#bg-white4{
+    background: none;
+}
+
+
 
 
 
