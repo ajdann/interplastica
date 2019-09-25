@@ -1,91 +1,41 @@
 <% include partials/header %>
 
 <!-- Prva slika i tekst  -->
-<div id='ogradepodnaslov' class='d-flex flex-row  justify-content-between'>
-    <div>
-        <h1 class='h3'>Ograde</h1>
-        <hr>
-        <img src="/images/ograde/ograda1.jpg" alt="">
-    </div>
-    <div class='align-self-center'>
-        <ul class='lista'>
-            <li>Installation on substrates: ground or concrete.</li>
-            <li>Panel width and height available in differenet sizes.</li>
-            <li> Different concepts of panel pattern. </li>
-        </ul>
-        <div class='mt-5'>
-            <h3>UV stability</h3>
-            <p><u>10 year guarantee</u></p>
-        </div>
-    </div>
-</div>
-
-<!-- Boje ograda  -->
-<div class='mb-5'>
-    <h4 class='ml-4 pl-1 mb-4'>Available Colors:</h4>
-    <div class=' d-flex flex-row justify-content-around'>
-        <div class='boja rounded shadow-sm bg-primary'></div>
-        <div class='boja rounded shadow-sm bg-secondary'></div>
-        <div class='boja rounded shadow-sm bg-success'></div>
-        <div class='boja rounded shadow-sm bg-danger'></div>
-    </div>
-</div>
-
-<!-- koncepti -->
+<div class="tabset">
+<div class="tab-panels">
 
 
-<div class="podprofil  mt-5">
-    <h2>The Basic Concept</h2>
+<div class="podprofil" style='margin-top: 110px;'>
+    <h2>Karakteristike Ograda</h2>
     <hr class='align-self-sm-center align-self-md-start w-50 ml-0 mt-1 mb-3'>
     <div class="row justify-content-between">
-        <div class="col-lg-7 col-md-12">
-            <img src="/images/ograde/ograda3.jpg" alt="" class="slikeProfila img-fluid">
+      <div class="col-lg-7 col-md-12">
+        <img src="/images/ograde/ograda1.png" style="width: 75%;" alt="" class="slikeProfila">
+      </div>
+      <div class="col-lg-5 col-md-12 mt-2">
+        <h5><strong>Garancija</strong></h5>
+        <p>Uz sve nase ograde, dobijate 10 godina garancije</p>
+        <h5><strong>UV Stabilnost</strong></h5>
+        <p>Garantovanost UV stabilnosti svih ograda</p>
+        <h5><strong>Montaza</strong></h5>
+        <p>Montaža na betonskoj i zemljanoj podlozi</p>
+        <h5><strong>Dimenzije</strong></h5>
+        <p>Širina i visina panela dostupna u različitim dimenzijama</p>
+        <h5><strong>Dostupne boje</strong></h5>
+        <div class="d-flex flex-row justify-content-around">
+            <div class="boja rounded shadow-sm" id="prvaBoja"></div>
+            <div class="boja rounded shadow-sm" id="drugaBoja"></div>
+            <div class="boja rounded shadow-sm" id="trecaBoja"></div>
+            <div class="boja rounded shadow-sm" id="cetvrtaBoja"></div>
         </div>
-        <div class="col-lg-5 col-md-12 mt-2">
-            <p>
-                <p class='align-self-center'>Cap:PVC /flat caps</p>
-            </p>
-        </div>
+      </div>
     </div>
+  </div>
+
+
+
+
 </div>
-
-
-<div class="podprofil">
-    <h2>Medium Concept</h2>
-    <hr class='align-self-sm-center align-self-md-start w-50 ml-0 mt-1 mb-3'>
-    <div class="row justify-content-between">
-        <div class="col-lg-7 col-md-12">
-            <img src="/images/ograde/ograda4.jpg" alt="" class="slikeProfila img-fluid">
-        </div>
-        <div class="col-lg-5 col-md-12 mt-2">
-            <p>
-                <p class='align-self-center'>Cap:PVC or stainless steel/flat caps <br> Bearing elements: stainless steel
-                </p>
-            </p>
-        </div>
-    </div>
 </div>
-
-<div class="podprofil">
-    <h2>Premium Concept</h2>
-    <hr class='align-self-sm-center align-self-md-start w-50 ml-0 mt-1 mb-3'>
-    <div class="row justify-content-between">
-        <div class="col-lg-7 col-md-12">
-            <img src="/images/ograde/ograda5.jpg" alt="" class="slikeProfila img-fluid">
-        </div>
-        <div class="col-lg-5 col-md-12 mt-2">
-            <p>
-                <p class='align-self-center'>Cap:PVC or stainless steel/flat caps <br> Bearing elements: stainless steel
-                </p>
-            </p>
-        </div>
-    </div>
-</div>
-
-
-
-
-
-
 
 <% include partials/footer %>
