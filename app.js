@@ -21,6 +21,11 @@ app.get('/alati', function(req, res) {
     res.render('Alati');				  
 });
 
+app.get('/precistaci', function(req, res) {
+    res.locals.title = "Precistaci"; 
+    res.render('precistaci');				  
+});
+
 app.get('/razvoj', function(req, res) {
     res.locals.title = "Razvoj Proizvoda"; 
     res.render('razvoj');				  
