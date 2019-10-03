@@ -89,9 +89,17 @@ html, body {
     background-color: #AEB6BF;
   }
 
-  #isprekidana::before{
-    border-top: 5px checked #2C3E50;
+  #isprekidana::after{
+    border-top: 6px dashed #F5F5F5;
+    margin-right: -5px;
   }
+
+  #isprekidana2::before{
+
+    border-top: 6px dashed #F5F5F5;
+    margin-left: -6px;
+  }
+
 
   #popunjena:checked::after{
     background-color:#2C3E50;
