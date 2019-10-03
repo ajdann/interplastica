@@ -88,6 +88,15 @@ html, body {
   input:checked::after {
     background-color: #AEB6BF;
   }
+
+  #isprekidana::before{
+    border-top: 5px checked #2C3E50;
+  }
+
+  #popunjena:checked::after{
+    background-color:#2C3E50;
+  }
+
   input:checked ~ input, input:checked ~ input::before, input:checked ~ input::after {
     background-color: #AEB6BF;
   }
