@@ -1,0 +1,9 @@
+.onamaslika {
+   background-image: url('/images/stolicexd.jpg');
+   width: 100%;
+   height: 350px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position-y: 50%;
+   margin-bottom: 6%;
+}
