@@ -10,14 +10,48 @@
     width: 20%;
 }
 
-.fontOgrade{
+/* .fontOgrade{
     font-size: 0.9em;
-}
+} */
 
 @media (max-width: 768px) {
     .stopa{
         width: 150% !important;
         overflow-x: hidden !important;  
+    }
+
+    #ogradaprvaslika{
+        width: 60% !important;
+    }
+    #ogradadrugaslika{
+        width: 69% !important;
+        margin-top: 30px;
+    }
+    #marginaispodstuba {
+        margin-top: 40px;
+    }
+    #nekistub{
+        width:58% !important;
+        margin-top: 0 !important;
+    }
+    .mrzimoveslike{
+        width: 60% !important;
+        margin-left: -350px;
+    }
+    .carouselslike {
+        height: 20% !important;
+    }
+    .carousel-inner {
+        height: 320px;
+    }
+    #nekidrugistub {
+        width: 58% !important;
+    }
+    #zakacka {
+        width: 50% !important;
+    }
+    #inoxtekst {
+        margin-top: 30px;
     }
 }
 
